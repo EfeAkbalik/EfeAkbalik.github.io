@@ -1,0 +1,91 @@
+@import "components/header.css";
+@import "components/footer.css";
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 800px;
+}
+
+
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
+
+
+main {
+
+time {
+  color: #999;
+}
+
+p img {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+}
+
+main li {
+  display: inline;
+  
+  a {
+      color: #444;
+  }
+
+  a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
+
+}
+
+
+
+.container {
+        color: #444;
+        line-height: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+      }
+      
+.container p {
+  line-height: 1.0;
+}
+
+
+.container time {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.back {
+  font-size: 30px;
+  color: #222;
+}
+
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.postname {
+  font-size: 35px;
+}

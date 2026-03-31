@@ -1,0 +1,108 @@
+/* ns-hugo-imp:C:\Users\efepa\OneDrive\Desktop\efeakbalik.com\themes\efe\assets\css\components\header.css */
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+  a {
+    color: #222;
+    display: inline;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+}
+header li {
+  display: inline;
+  word-spacing: 20px;
+  a {
+    color: #222;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+}
+
+/* ns-hugo-imp:C:\Users\efepa\OneDrive\Desktop\efeakbalik.com\themes\efe\assets\css\components\footer.css */
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.footercenter {
+  text-align: center;
+  line-height: 0.5;
+}
+
+/* <stdin> */
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 800px;
+}
+a {
+  color: #00e;
+  text-decoration: none;
+}
+main {
+  time {
+    color: #999;
+  }
+  p img {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+  }
+}
+main li {
+  display: inline;
+  a {
+    color: #444;
+  }
+  a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
+}
+.container {
+  color: #444;
+  line-height: 0;
+  font-family:
+    Helvetica,
+    Arial,
+    sans-serif;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.container p {
+  line-height: 1.0;
+}
+.container time {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: larger;
+}
+.back {
+  font-size: 30px;
+  color: #222;
+}
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.description {
+  font-size: 20px;
+}
+.postname {
+  font-size: 35px;
+}
+/*# sourceMappingURL=main.css.map */

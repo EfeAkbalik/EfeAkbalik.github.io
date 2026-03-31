@@ -1,0 +1,4 @@
+baseURL = 'https://efeakbalik.com/'
+locale = 'en-US'
+title = 'Efe Akbalık'
+theme = 'efe'

@@ -1,0 +1,32 @@
+baseURL = 'https://efeakbalik.com/'
+locale = 'en-US'
+title = 'Efe Akbalık'
+
+[menus]
+  [[menus.main]]
+    name = '↩'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Efelog'
+    pageRef = '/posts'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 30
+
+  [[menus.main]]
+    name = 'Topics'
+    pageRef = '/tags'
+    weight = 40
+
+
+
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
